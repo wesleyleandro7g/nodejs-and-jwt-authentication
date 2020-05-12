@@ -1,0 +1,38 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add express
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Users\WESLEY\AppData\Local\Android\Sdk\platform-tools;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\nodejs\;C:\Users\WESLEY\AppData\Local\Android\Sdk;C:\Users\WESLEY\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\WESLEY\AppData\Local\Programs\Python\Python38\;C:\Users\WESLEY\AppData\Local\Microsoft\WindowsApps;C:\Users\WESLEY\AppData\Local\Yarn\bin;C:\Users\WESLEY\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\WESLEY\AppData\Local\Android\Sdk\platform-tools;C:\Users\WESLEY\AppData\Local\Android\Sdk\platform-tools;C:\Users\WESLEY\AppData\Local\Android\Sdk\tools;C:\Users\WESLEY\AppData\Roaming\npm
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (internal/stream_base_commons.js:205:27)
+
+npm manifest: 
+  {
+    "name": "Autentication",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
