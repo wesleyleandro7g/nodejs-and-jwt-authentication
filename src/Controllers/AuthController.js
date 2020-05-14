@@ -22,7 +22,7 @@ module.exports = {
     if (key === 1) {
       res
         .status(500)
-        .send({ auth: false, message: "Failed to authenticate token." });
+        .send({ auth: false, message: "Failed to authenticate token!" });
     }
 
     res.send({ key });
